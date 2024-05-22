@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://matthewzierl.github.io/personal-webpage",
+  "homepage": "https://matthewzierl.github.io/personal-website/",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
