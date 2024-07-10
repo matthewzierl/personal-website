@@ -2,6 +2,7 @@ import React from 'react';
 import Page from './Page';
 import { Routes, Route, NavLink as Link } from 'react-router-dom';
 import About from './About';
+import Experience from './Experience'
 import Contact from './Contact';
 import Technologies from './Technologies';
 import Navbar from './Navbar';
@@ -36,6 +37,9 @@ function App() {
               <Link to="aboutme" activeClassName="active">About</Link>
             </li>
             <li>
+              <Link to="experience" activeClassName="active">Experience</Link>
+            </li>
+            <li>
               <Link to="technologies" activeClassName="active">Technologies</Link>
             </li>
             <li>
@@ -49,6 +53,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Page />} />
           <Route path='aboutme' element={<About />} />
+          <Route path='experience' element={<Experience />} />
           <Route path='technologies' element={<Technologies />} />
           <Route path='contact' element={<Contact />} />
         </Routes>

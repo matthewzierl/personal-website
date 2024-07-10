@@ -11,6 +11,10 @@ export const navbarItems = [
             link: "aboutme",
            },
            {
+            title: "Experience",
+            link: "experience",
+           },
+           {
             title: "Technologies",
             link: "technologies",
            },
