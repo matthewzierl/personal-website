@@ -8,8 +8,8 @@ export default function Page() {
     <div style={{width:"100%", height:"100%"}}>
       <div className='intro'>
         <h3 style={{ textAlign: "center" }}>
-        <p>Language: Java, Objective C, Swift, JavaScript</p>
-        <p>Library/Framework: React, SwiftUI, UIKit</p>
+        <p>Language: Java, Swift, JavaScript</p>
+        <p>Library/Framework: React, UIKit</p>
         <p>Misc: Firebase, Google Cloud</p>
         </h3>
       </div>
